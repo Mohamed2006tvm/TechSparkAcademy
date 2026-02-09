@@ -1,6 +1,6 @@
 import React from 'react'
 import google from '../assets/google icon.png'
-import logo from '../assets/Logo.jpeg'
+import logo from '../assets/cropped_circle_image (3).png'
 import { MoveRight, Shield, Copyright } from 'lucide-react'
 import { supabase } from '../database/supabase'
 
