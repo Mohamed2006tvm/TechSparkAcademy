@@ -1,0 +1,93 @@
+export const courses = [
+    {
+        id: 1,
+        title: "Foundation of AI",
+        description: "A comprehensive 3-month live training program with hands-on projects, expert guidance, and an industry-recognized certification upon successful completion.",
+        image: "https://placehold.co/600x400?text=Foundation+of+AI",
+        level: "Beginner",
+        Onlineprice: 10000,
+        Offlineprice: 15000,
+        rating: 4.8,
+        carrier: "AI Associate",
+        duration: "3 Months",
+        certification: "Tech Spark Certified AI Associate"
+    },
+    {
+        id: 2,
+        title: "Advanced AI Technologies",
+        description: "A comprehensive 5-month live training program followed by a 2-month internship, including hands-on projects and a course completion certificate.",
+        image: "https://placehold.co/600x400?text=AI+%26+ML",
+        level: "Intermediate",
+        Onlineprice: 27000,
+        Offlineprice: 32000,
+        rating: 4.9,
+        carrier: "AI Professional",
+        duration: "7 Months",
+        certification: "Tech Spark Certified AI Professional"
+    },
+    {
+        id: 3,
+        title: "Certified AI Engineer",
+        description: "A comprehensive 8-month live training program followed by a 2-month internship, including hands-on projects, a course completion certificate, and an internship certificate.",
+        image: "https://placehold.co/600x400?text=Pro+AI+Developer",
+        level: "Advanced",
+        Onlineprice: 35000,
+        Offlineprice: 40000,
+        rating: 4.7,
+        carrier: "AI Engineer",
+        duration: "10 Months",
+        certification: "Tech Spark Certified AI Engineer"
+    },
+    {
+        id: 4,
+        title: "Certified Data Scientist",
+        description: "A comprehensive 6-month live training program followed by a 2-month internship, including hands-on projects, a course completion certificate, and an internship certificate.",
+        image: "https://placehold.co/600x400?text=Master+AI",
+        level: "Master",
+        Onlineprice: 30000,
+        Offlineprice: 35000,
+        rating: 4.8,
+        carrier: "Data Scientist",
+        duration: "8 Months",
+        certification: "Tech Spark Certified Data Scientist"
+    },
+    {
+        id: 5,
+        title: "Certified Data Analyst",
+        description: "A comprehensive 4-month live training program followed by a 2-month internship, including hands-on projects, a course completion certificate, and an internship certificate.",
+        image: "https://placehold.co/600x400?text=Data+Analyst",
+        level: "Beginner",
+        Onlineprice: 20000,
+        Offlineprice: 25000,
+        rating: 4.6,
+        carrier: "Data Analyst",
+        duration: "6 Months",
+        certification: "Tech Spark Certified Data Analyst"
+    },
+    {
+        id: 6,
+        title: "Full Stack Development using AI",
+        description: "A comprehensive 2-month live training program followed by a 1-month internship with hands-on project experience and an internship certificate.",
+        image: "https://placehold.co/600x400?text=Data+Scientist",
+        level: "Intermediate",
+        Onlineprice: 10000,
+        Offlineprice: 15000,
+        rating: 4.9,
+        carrier: "Full Stack Developer",
+        duration: "3 Months",
+        certification: "Tech Spark Certified Full Stack Developer"
+    },
+    {
+        id: 7,
+        title: "Graphic Designing and Video Editing",
+        description: "A comprehensive 3-month live training program with hands-on project experience to build practical skills.",
+        image: "https://placehold.co/600x400?text=Graphic+Design",
+        level: "Intermediate",
+        Onlineprice: 10000,
+        Offlineprice: 15000,
+        rating: 4.9,
+        carrier: "Graphic Designer",
+        duration: "3 Months",
+        certification: "Tech Spark Certified Graphic Designer"
+    }
+];

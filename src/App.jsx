@@ -1,11 +1,16 @@
 import React from 'react'
-import LoginPage from './auth/LoginPage'
+import { Routes, Route } from 'react-router-dom'
+import Course from './pages/Course'
+import Courses from './Dynamic/Courses'
+import Workshop from './pages/Workshop'
 
 const App = () => {
   return (
-    <div>
-      <LoginPage/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Course />} />
+      <Route path="/course/:id" element={<Courses />} />
+      <Route path="/workshops" element={<Workshop />} />
+    </Routes>
   )
 }
 

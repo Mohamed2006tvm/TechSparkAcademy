@@ -29,7 +29,7 @@ const LoginPage = () => {
         {/* Content */}
         <div className="flex flex-col items-center px-6 py-8 text-center gap-3">
 
-          <img src={logo} className="w-[55px] h-[50px] rounded-lg mb-2" />
+          <img src={logo} className="w-[55px] h-[55px] mb-2" />
 
           <h1 className="text-2xl font-bold text-gray-900">
             Welcome back
